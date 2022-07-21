@@ -240,14 +240,18 @@ from tkinter import scrolledtext
 #You received 5 number of votes. The total number of votes in the election was 6. You received 83.33333333333334% of the total votes.
 
 
-candidate_votes = int(input("How many votes did the candidate get in the election? "))
-total_votes = int(input("What is the total number of votes in the election? "))
-message_to_candidate = (
-    f"You received {candidate_votes:,} number of votes. "
-    f"The total number of votes in the election was {total_votes:,}. "
-    f"You received {candidate_votes / total_votes * 100:.2f}% of the total votes.")
+#candidate_votes = int(input("How many votes did the candidate get in the election? "))
+#total_votes = int(input("What is the total number of votes in the election? "))
+#message_to_candidate = (
+ #   f"You received {candidate_votes:,} number of votes. "
+ #   f"The total number of votes in the election was {total_votes:,}. "
+  #  f"You received {candidate_votes / total_votes * 100:.2f}% of the total votes.")
 
-print(message_to_candidate)
+#print(message_to_candidate)
+
+#How many votes did the candidate get in the election? 5
+#What is the total number of votes in the election? 10
+#You received 5 number of votes. The total number of votes in the election was 10. You received 50.00% of the total votes.
 
 
 
